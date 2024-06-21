@@ -1,0 +1,46 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: normal;
+	background-color: #e7ecf1!important;
+	overflow-x: hidden;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	text-decoration: none;
+	line-height: 1.2;
+}
+
+.dadata_content {
+    position: absolute;
+    z-index: 10;
+    width: 95%;
+    background: white;
+    max-height: 130px;
+    overflow-y: auto;
+}
+
+.adr-item,.inn-item {
+	font-size:16.5px;
+	background:	#ffffff;
+}
+
+.adr-item:hover,.inn-item:hover{
+	cursor:pointer;
+	background: #5da1e7;
+    color: white;
+}
+
